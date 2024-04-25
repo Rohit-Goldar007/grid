@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Grid_Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+      ">
+      <div style="background-color: lightblue;">div1</div>
+    <div style="background-color: lightgreen;">div2<p>text</p></div></div>
+    
+    <div style="
+      display: grid;
+      margin-top: 40px;
+      grid-template-columns: 1fr  1fr 1fr ;
+      
+      column-gap: 20px;
+       row-gap: 40px;
+      ">
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+    <div style="background-color: lightgreen; height:200px;">1fr</div>
+    <div style="background-color: lightpink; height:200px">1fr</div>
+    <div style="background-color: lightgreen; height:200px;">1fr</div>
+    <div style="background-color: lightgreen; height: 200px;">1fr</div>
+    <div style="background-color: lightpink; height:200px;">1fr</div>
+    <div style="background-color: lightblue; height:200px">1fr</div>
+    <div style="
+    display:grid;
+    gap: 0 0.5rem;
+    grid-template-columns: repeat(auto-fill,minmax(10rem,1fr));
+    grid-template-rows: auto;
+    grid-auto-rows: 0;
+    overflow: hidden;
+    "><div style="background-color: lightblue; height: 100px;">1fr</div>
+    <div style="background-color: lightgreen; height:100px;">1fr</div>
+    <div style="background-color: lightpink; height:100px">1fr</div>
+    <div style="
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-columns: 100px minmax(100px,3fr)1fr;
+    grid-gap:1em 3em">
+    <div style="background-color: lightblue; height: 100px;">1fr</div>
+    <div style="background-color: lightgreen; height:100px;">1fr</div>
+    <div style="background-color: lightpink; height:100px">1fr</div>
+
+  </body>
+
+</html>
